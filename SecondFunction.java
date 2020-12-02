@@ -1,5 +1,3 @@
-package hw;
-
 public class SecondFunction {
 	public static char firstNonRepeatingLetter(String str) {
 		for(int i=0;i<str.length();i++) {
