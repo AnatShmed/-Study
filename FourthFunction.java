@@ -1,5 +1,3 @@
-package hw;
-
 import java.util.stream.IntStream;
 
 public class FourthFunction {
