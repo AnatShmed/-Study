@@ -1,6 +1,3 @@
-package hw;
-
-
 public class Extra2 {
 	public static String IPv4(int unsigned) {
 		String[] uns_str = {Integer.toUnsignedString(unsigned, 2)};
