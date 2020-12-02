@@ -1,5 +1,3 @@
-package hw;
-
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -25,6 +23,6 @@ public class FifthFunction {
 		return result[0];
 	}
 	public static void main(String[] args) {
-		System.out.println(meating("Fred:Cornwill;Fred:Cornwill;Wilfred:Corwill;Barney:Tornbull;Betty:Tornbull;Bjon:Tornbull;Raphael:Cornwill;Alfred:Cornwill"));//output:7
+		System.out.println(meating("Fred:Cornwill;Fred:Cornwill;Wilfred:Corwill;Barney:Tornbull;Betty:Tornbull;Bjon:Tornbull;Raphael:Cornwill;Alfred:Cornwill"));
 	}
 }
