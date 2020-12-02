@@ -1,5 +1,3 @@
-package hw;
-
 public class ThirdFunction {
 	public static int digitalRoot(int n) {
 		if(n<10) return n;
