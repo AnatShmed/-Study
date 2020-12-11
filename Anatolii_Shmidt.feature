@@ -54,7 +54,7 @@ Scenario: Show Year In Reviev video
      When The user click on play button
      Then Show video from youtube named 'EPAM’s 2019 Year In Review'
 
-Scenario: The video stops when it not displayed
+Scenario: The video stops when it is not displayed
     Given The user went to https://www.epam.com/services/consult-and-design
     And scrolled down to the video
     And clicked on the play button
