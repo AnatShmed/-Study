@@ -29,6 +29,8 @@ Scenario Outline: Check telephone format
      When <phone> contains forbidden characters (alphabetic characters, special characters except '+', '-' and ';')
      Then <isWrongFormat> is true
      And show message about wrong phone format
+     When <phone> doesn`t contain forbidden characters (alphabetic characters, special characters except '+', '-' and ';')
+     Then <isWrongFormat> is false
 Examples:
       | phone | isWrongFormat |
       | qwe123 | true |
