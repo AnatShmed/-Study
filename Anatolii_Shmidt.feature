@@ -15,8 +15,9 @@ Examples:
 Scenario: Show jobs in Kyiv
     Given The user is on the Careers page (https://www.epam.com/careers)
     And choosed "Kyiv" from Location list
+    And choosed "User Experience & Design" from Skills list
     When The user clicks on the find button
-    Then Show all jobs available in Kyiv
+    Then Show 1 job: Senior Experience Designer; Kyiv, Ukraine
 
 Scenario: Show that "@gmail.com" is invalid email format
     Given The user is on the contact page (https://www.epam.com/about/who-we-are/contact)
