@@ -12,7 +12,7 @@ Examples:
       | About | https://www.epam.com/about |
       | Careers | https://www.epam.com/careers |
       
-Scenario: Show jobs in Kyiv
+Scenario: Show job in Kyiv (Senior Experience Designer)
     Given The user is on the Careers page (https://www.epam.com/careers)
     And choosed "Kyiv" from Location list
     And choosed "User Experience & Design" from Skills list
