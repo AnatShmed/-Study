@@ -44,7 +44,7 @@ Examples:
 Scenario: Show news for 2002
     Given The user is on the In The News page (https://www.epam.com/about/newsroom/in-the-news)
      When The user choose "2002" from Year list
-     Then Show news for 2002
+     Then Show article 'DECEMBER 17, 2002, Las Vegas takes its show on the Information Highway'
 
 Scenario: Show business news for 2001
     Given The user is on the Press Releases page (https://www.epam.com/about/newsroom/press-releases)
