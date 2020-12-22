@@ -36,7 +36,7 @@ Examples:
       | phone | isWrongFormat |
       | qwe123 | true |
       | +123 456 +123 554 | false |
-      | (097)-123 | true |
+      | (097)-123 | false |
       | 23444533 | false |
       | *123-232-333 | true |
 
