@@ -35,7 +35,7 @@ Scenario Outline: Check telephone format
 Examples:
       | phone | isWrongFormat |
       | qwe123 | true |
-      | +123-456;+123 554 | false |
+      | +123 456 +123 554 | false |
       | (097)-123 | true |
       | 23444533 | false |
       | *123-232-333 | true |
