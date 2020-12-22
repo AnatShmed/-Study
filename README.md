@@ -14,4 +14,4 @@
  
   Після налаштування для запуску всіх тестів необхідно вибрати Run SeleniumTests у списку біля Run(дефолтний значок запуску на панелі зверху). 
   
-  Як все має бути: https://drive.google.com/file/d/1aDXDn4CW1ECX-IfpPSpHxDckOf1bqL_W/view?usp=sharing
+  Як все має бути: 
