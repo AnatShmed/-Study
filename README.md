@@ -8,7 +8,7 @@
 Налаштування Eclipse:
   1. Відкрити як проект папку SeleniumTests;
   2. В Properties для SeleniumTests перейти на вкладку Java Compiler і обрати Compiler compliance level 9
-  3. У вкладці Java Build Path додати бібліотеку(якщо воне вже не стоїть за замовчуванням) JRE System Library [jdk-12]/[jdk-13]
+  3. У вкладці Java Build Path додати бібліотеку(якщо вона вже не стоїть за замовчуванням) JRE System Library [jdk-12]/[jdk-13]
   
  Запуск тестів
  
