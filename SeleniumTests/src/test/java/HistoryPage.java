@@ -17,6 +17,10 @@ public class HistoryPage {
     
     @FindBy(xpath ="//*[@class='mfp-iframe']")
     private WebElement magnificPopupIframe;
+    public boolean isDisplayedMagnificPopupIframe() {
+    	
+    	return magnificPopupIframe.isDisplayed();
+    }
     public String getMagnificPopupIframeAtr(String atr) {
     	return magnificPopupIframe.getAttribute(atr);
     }

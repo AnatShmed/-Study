@@ -22,6 +22,7 @@ public class SeventhTest {
 	@Test
     public void test() {
 		history_page.clickVideoButton();
+		Assert.assertEquals(true, history_page.isDisplayedMagnificPopupIframe());
 		Assert.assertEquals("https://www.youtube.com/embed/EyxIZd9lBYk?enablejsapi=1&rel=0&wmode=opaque", history_page.getMagnificPopupIframeAtr("src"));
 	}
 	@AfterClass
