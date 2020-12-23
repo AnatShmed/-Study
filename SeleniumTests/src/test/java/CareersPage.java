@@ -11,6 +11,12 @@ public class CareersPage {
     @FindBy(xpath ="//*[contains(text(), 'Keyword or job ID')]")
     public WebElement keywordText;
     
+    @FindBy(xpath ="/html/body/div[2]/main/div[1]/div[1]/section/div/div[1]/div/section/header/h1")
+    private WebElement jobsNumberText;
+    public String getJobsNumberText(){
+    	return jobsNumberText.getText();
+    }
+    
     @FindBy(xpath ="//*[contains(@id, 'Kyiv')]")
    private WebElement kyivLink;
     

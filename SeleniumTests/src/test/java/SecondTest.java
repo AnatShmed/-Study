@@ -28,6 +28,7 @@ public class SecondTest {
 		careers_page.clickSkillsSelection();
 		careers_page.clickUEDCheckbox();
 		careers_page.clickFindButton();
+		Assert.assertEquals("WE FOUND 1 JOB OPENING FOR YOU", careers_page.getJobsNumberText());
 		Assert.assertEquals("Senior Experience Designer", careers_page.getJobName());
 		Assert.assertEquals("KYIV, UKRAINE", careers_page.getJobLocation());
 		}
