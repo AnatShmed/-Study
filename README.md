@@ -13,5 +13,3 @@
  Запуск тестів
  
   Після налаштування для запуску всіх тестів необхідно вибрати файл TestRuner.java і натиснути Run As JUnit Test у списку біля Run(дефолтний значок запуску на панелі зверху). 
-  
-  [Як все має бути](https://drive.google.com/file/d/1gH0ekDEJJhJE5Ca4SpucncuscvZIeX6_/view?usp=sharing)
