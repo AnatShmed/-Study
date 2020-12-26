@@ -1,0 +1,12 @@
+
+*.prefs
+lab4/.classpath
+lab4/.project
+lab4/target/test-classes/pictureAS.jpg
+lab4/target/test-classes/WebApiTests.class
+*.tmp
+*.class
+sel.tests/target/test-classes/cucumber/.gitkeep
+sel.tests/target/test-classes/chromedriver/chromedriver.exe
+sel.tests/target/test-classes/cucumber/Anatolii_Shmidt.feature
+sel.tests/.project
