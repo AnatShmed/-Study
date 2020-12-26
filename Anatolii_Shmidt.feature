@@ -27,10 +27,10 @@ Scenario: Show that "@gmail.com" is invalid email format
 Scenario Outline: Check telephone format 
     Given The user is on the contact page (https://www.epam.com/about/who-we-are/contact)
      And user inputed <phone> in the phone form
-     When <phone> contains forbidden characters (alphabetic characters, special characters except '+', '-' and ';')
+     When <phone> contains forbidden characters (alphabetic characters, special characters except '+', '-', ')' and '(')
      Then <isWrongFormat> is true
      And show message about wrong phone format
-     When <phone> doesn`t contain forbidden characters (alphabetic characters, special characters except '+', '-' and ';')
+     When <phone> doesn`t contain forbidden characters (alphabetic characters, special characters except '+', '-'  ')' and '(')
      Then <isWrongFormat> is false
 Examples:
       | phone | isWrongFormat |
