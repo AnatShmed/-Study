@@ -1,7 +1,7 @@
 /.metadata/
-sel.tests/sel.tests/*
-sel.tests/target/*
-sel.tests/.settings/*
++/sel.tests/sel.tests/
++/sel.tests/target/
++/sel.tests/.settings/
 *.class
-sel.tests/target/test-classes/chromedriver/chromedriver.exe
++/sel.tests/target/test-classes/chromedriver/chromedriver.exe
 
